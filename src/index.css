@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+
+/* Плавный переход для всех состояний элементов меню */
+.ant-menu-dark .ant-menu-item, .ant-menu-item-active {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Плавный переход */
+}
+
+
+
+
+.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-dark > .ant-menu .ant-menu-item-selected {
+    background: linear-gradient(118deg, #1e90ff, rgba(30, 144, 255, 0.7));
+    -webkit-box-shadow: 0 0 10px 1px rgba(30, 144, 255, 0.7);
+    box-shadow: 0 0 10px 1px rgba(30, 144, 255, 0.7);
+}
+
+
+.ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >thead>tr >.ant-table-cell-fix-right-first::after, :where(.css-dev-only-do-not-override-ni1kz0).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >thead>tr >.ant-table-cell-fix-right-first::after, :where(.css-dev-only-do-not-override-ni1kz0).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >thead>tr >.ant-table-cell-fix-right-first::after, :where(.css-dev-only-do-not-override-ni1kz0).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >thead>tr >.ant-table-cell-fix-right-first::after, :where(.css-dev-only-do-not-override-ni1kz0).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >tbody>tr >.ant-table-cell-fix-right-first::after, :where(.css-dev-only-do-not-override-ni1kz0).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >tbody>tr >.ant-table-cell-fix-right-first::after, :where(.css-dev-only-do-not-override-ni1kz0).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >tbody>tr >.ant-table-cell-fix-right-first::after, :where(.css-dev-only-do-not-override-ni1kz0).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >tbody>tr >.ant-table-cell-fix-right-first::after, :where(.css-dev-only-do-not-override-ni1kz0).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >tfoot>tr >.ant-table-cell-fix-right-first::after, :where(.css-dev-only-do-not-override-ni1kz0).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >tfoot>tr >.ant-table-cell-fix-right-first::after, :where(.css-dev-only-do-not-override-ni1kz0).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >tfoot>tr >.ant-table-cell-fix-right-first::after, :where(.css-dev-only-do-not-override-ni1kz0).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >tfoot>tr >.ant-table-cell-fix-right-first::after {
+     border-inline-end: 0px solid #000;
+}
+
+
+.bdy {
+    --tw-ring-color: rgb(34 197 94 / 0.2);
+}
+.bde {
+    --tw-ring-inset: inset;
+}
+.bda {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.aza {
+    --tw-text-opacity: 1;
+    color: rgb(74 222 128 / var(--tw-text-opacity));
+}
+.axh {
+    font-weight: 500;
+}
+.axf {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+.asm {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+.asa {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.akd {
+    background-color: rgb(34 197 94 / 0.1);
+}
+.aen {
+    border-radius: 0.375rem;
+}
+.zp {
+    align-items: center;
+}
+.mc {
+    display: inline-flex;
+}
+
+
+.bex {
+    --tw-ring-color: rgb(250 204 21 / 0.2);
+}
+
+.bda {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.bbq {
+    --tw-text-opacity: 1;
+    color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+.amp {
+    background-color: rgb(250 204 21 / 0.1);
+}
+
+.beo {
+    --tw-ring-color: rgb(248 113 113 / 0.2);
+}
+
+.bda {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.bae {
+    --tw-text-opacity: 1;
+    color: rgb(248 113 113 / var(--tw-text-opacity));
+}
+
+.alh {
+    background-color: rgb(248 113 113 / 0.1);
+}
+
+
+
+
+/*.logo {*/
+/*    background-image: url("/map.svg");*/
+/*    background-size: cover;*/
+/*    background-position: top;*/
+/*}*/
+
+.custom-table .ant-table-thead > tr > th {
+    border-radius: 0px !important;
+    font-family: "Montserrat", sans-serif !important;
+    border-color: #1e90ff !important;
+    background-color: #1e90ff; /* Light blue background */
+    color: #fff; /* Blue text color */
+    font-weight: 600; /* Slightly bolder text */
+    text-align: center;
+}
+
+
+
+.custom-table2 .ant-table-thead > tr > th {
+    border-radius: 0px !important;
+    font-family: "Montserrat", sans-serif !important;
+    border-color: #22c55e !important;
+    background-color: #22c55e; /* Light blue background */
+    color: #fff; /* Blue text color */
+    font-weight: 600; /* Slightly bolder text */
+    text-align: center;
+}
+
+
+.custom-scrollbar::-webkit-scrollbar {
+    height: 8px; /* Adjust the height for horizontal scroll */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #3b82f6; /* Tailwind's bg-blue-500 */
+    border-radius: 9999px; /* Full rounded corners */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #3b82f6; /* Tailwind's bg-blue-500 */
+    border-radius: 9999px; /* Full rounded corners */
+}
+
+
+.ant-table-cell {
+    text-align: center;
+}
+
+th {
+    font-size: 13px;
+}
+
+.success-border {
+    border-color: #52c41a !important; /* Зеленый цвет */
+    box-shadow: 0 0 4px rgba(82, 196, 26, 0.6) !important; /* Зеленая тень */
+}
